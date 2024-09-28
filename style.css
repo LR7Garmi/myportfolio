@@ -32,8 +32,7 @@ a{
   align-items: center;
 }
 .nav-logo {
-top:-10px;
-  width: 50px;
+  width: 60px;
   z-index: -1;
 }
 .nav-logo-text {
@@ -447,17 +446,17 @@ top:-10px;
 }
 
 #project1 {
-  background-image: url(./Project1.png);
+  background-image: url(./images/stack/Project1.png);
 }
 #project2 {
-  background-image: url(./Project2.png);
+  background-image: url(./images/stack/Project2.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(./Project3.png);
+  background-image: url(./images/stack/Project3.png);
 }
 #project4 {
-  background-image: url(./Project4.png);
+  background-image: url(./images/stack/Project4.png);
   margin-left: 120px;
 }
 
@@ -755,13 +754,9 @@ footer {
 .icon-wrapper {
   display: flex;
   gap: 1rem;
-  /* color:white; */
-  /* font-size: 35px; */
+  color:white;
+  font-size: 35px;
 }
-
-
-
-
 @media (max-width: 1300px) {
   footer {
     padding: 0.5rem;
